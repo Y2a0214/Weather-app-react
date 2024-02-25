@@ -4,6 +4,7 @@ const Tempapp = () => {
   const [search, setSearch] = useState("pune");
   const [city, setCity] = useState(null);
   console.log(city)  
+  console.log(city)  
 
   useEffect(() => {
     async function name() {
